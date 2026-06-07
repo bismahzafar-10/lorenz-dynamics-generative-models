@@ -65,20 +65,31 @@ git clone https://github.com/bismahzafar-10/lorenz-dynamics-generative-models.gi
 
 3. Run the cells step-by-step to visualize the data generation and model training.
 
+---
 
 ### 📊 Model Performance & Simulation Results
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/763b4ef4-5be5-4afb-ae7a-cbfd8d09cf63" width="45%" alt="Lorenz Attractor Plot" />
-  <img src="https://github.com/user-attachments/assets/f5c92271-cab2-4e9b-8db0-6bd25f77d071" width="45%" alt="Phase Space Reconstruction" />
 </p>
+
+
+VAE for Lorenz Dynamics
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/445118cc-624b-43ab-9b37-daa1a8ed79c2" width="90%" alt="Trajectory Comparison" />
 </p>
 
+GAN for Lorenz Dynamics
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9fb3ce45-a9fa-43f8-99ce-6498f1fcae51" width="90%" alt="VAE Loss Curves" />
+</p>
+
+Comparative Analysis
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f5c92271-cab2-4e9b-8db0-6bd25f77d071" width="45%" alt="Phase Space Reconstruction" />
 </p>
 
 <p align="center">
