@@ -13,10 +13,13 @@ This repository documents a research and computational modeling project focused 
 **Objective:** Explore and determine which model more effectively captures the dynamics of the Lorenz system.
 
 **Methodology:**
-            ◉ Data Generation: Generated Lorenz system data numerically for model training.
-            ◉ VAE Implementation: Developed a VAE model that encodes the Lorenz system in a compact latent space, optimized with reconstruction and KL divergence losses.
-            ◉ GAN Implementation: Created a GAN with a generator producing Lorenz-like samples from random noise and a discriminator distinguishing between real and generated data.
-            ◉ Comparative Analysis: Analyzed both models based on their fidelity to the Lorenz attractor and stability of generated outputs.
+ ◉ Data Generation: Generated Lorenz system data numerically for model training.
+ 
+ ◉ VAE Implementation: Developed a VAE model that encodes the Lorenz system in a compact latent space, optimized with reconstruction and KL divergence losses.
+ 
+ ◉ GAN Implementation: Created a GAN with a generator producing Lorenz-like samples from random noise and a discriminator distinguishing between real and generated data.
+ 
+ ◉ Comparative Analysis: Analyzed both models based on their fidelity to the Lorenz attractor and stability of generated outputs.
 
 **Expected Outcome:** 
 The goal of this project is to evaluate how effectively generative models can capture the underlying physical laws and geometric structures of a chaotic mathematical system without relying on explicit differential equation solvers during inference. This work reflects the exciting intersection of mathematics and AI, and it has been a deeply enriching experience under Su Hyeong Lee’s mentorship.
