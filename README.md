@@ -9,28 +9,43 @@ This repository documents a research and computational modeling project focused 
 ---
 
 ## 📌 Project Overview
-* **Mentee:** Bismah Zafar
-* **Mentor:** Su Hyeong Lee
-* **Program:** Twoples Mentorship Programme
 
-The goal of this project is to evaluate how effectively generative models can capture the underlying physical laws and geometric structures of a chaotic mathematical system without relying on explicit differential equation solvers during inference.
+Objective: Explore and determine which model more effectively captures the dynamics of the Lorenz system.
+
+Methodology:
+            Data Generation: Generated Lorenz system data numerically for model training.
+            VAE Implementation: Developed a VAE model that encodes the Lorenz system in a compact latent space, optimized with reconstruction and KL divergence losses.
+            GAN Implementation: Created a GAN with a generator producing Lorenz-like samples from random noise and a discriminator distinguishing between real and generated data.
+            Comparative Analysis: Analyzed both models based on their fidelity to the Lorenz attractor and stability of generated outputs.
+
+Expected Outcome: 
+The goal of this project is to evaluate how effectively generative models can capture the underlying physical laws and geometric structures of a chaotic mathematical system without relying on explicit differential equation solvers during inference. This work reflects the exciting intersection of mathematics and AI, and it has been a deeply enriching experience under Su Hyeong Lee’s mentorship.
 
 ---
 
 ## 🪐 Mathematical Background: The Lorenz System
-The Lorenz system is a system of three coupled, non-linear ordinary differential equations (ODEs) developed by Edward Lorenz in 1963 to model atmospheric convection. It defines how the state variables evolve over time:
+# **Lorenz system**
+The Lorenz system is a set of three ordinary differential equations originally developed by Edward Lorenz in 1963 to model atmospheric convection. It is notable for its chaotic solutions and has become a classic example in the study of dynamical systems and chaos theory. The equations describe how the state of the system evolves over time and are given by:
 
-$$\frac{dx}{dt} = \sigma (y - x)$$
-$$\frac{dy}{dt} = x (\rho - z) - y$$
-$$\frac{dz}{dt} = xy - \beta z$$
 
-### System Parameters & Chaos:
-To induce classic chaotic behavior, the standard system parameters are defined as:
-* **$\sigma$** (Prandtl number) = $10$
-* **$\rho$** (Rayleigh number) = $28$
-* **$\beta$** (Geometric factor) = $8/3$
+\begin{align*}
+\frac{dx}{dt} &= \sigma (y - x) \\
+\frac{dy}{dt} &= x (\rho - z) - y \\
+\frac{dz}{dt} &= xy - \beta z
+\end{align*}
 
-These parameters yield a fractal structure known as a **strange attractor** (the famous butterfly shape) where trajectories converge, illustrating an extreme sensitivity to initial conditions (the butterfly effect).
+where:
+- x, y, and z represent the state variables of the system.
+- 𝜎 is the Prandtl number, which relates to the fluid properties (10).
+- 𝜌 is the Rayleigh number, which represents the temperature difference driving convection (28).
+- 𝛽 is a geometric factor (8/3).
+
+
+ **Chaos**: The Lorenz system exhibits sensitive dependence on initial conditions, meaning that small changes in the initial state can lead to vastly different outcomes. This property is often illustrated by the "butterfly effect."
+
+**Strange Attractors**: The system has a particular type of solution called a strange attractor, which is a fractal structure that the trajectories of the system converge to in the phase space.
+
+
 
 ---
 
