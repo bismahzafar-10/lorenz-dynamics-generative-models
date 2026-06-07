@@ -28,11 +28,9 @@ The goal of this project is to evaluate how effectively generative models can ca
 The Lorenz system is a set of three ordinary differential equations originally developed by Edward Lorenz in 1963 to model atmospheric convection. It is notable for its chaotic solutions and has become a classic example in the study of dynamical systems and chaos theory. The equations describe how the state of the system evolves over time and are given by:
 
 
-\begin{align*}
-\frac{dx}{dt} &= \sigma (y - x) \\
-\frac{dy}{dt} &= x (\rho - z) - y \\
-\frac{dz}{dt} &= xy - \beta z
-\end{align*}
+$$\frac{dx}{dt} = \sigma (y - x)$$
+$$\frac{dy}{dt} = x (\rho - z) - y$$
+$$\frac{dz}{dt} = xy - \beta z$$
 
 where:
 - x, y, and z represent the state variables of the system.
