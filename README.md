@@ -96,13 +96,14 @@ VAE for Lorenz Dynamics
 GAN for Lorenz Dynamics
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9fb3ce45-a9fa-43f8-99ce-6498f1fcae51" width="90%" alt="VAE Loss Curves" />
+<img src="https://github.com/user-attachments/assets/f5c92271-cab2-4e9b-8db0-6bd25f77d071" width="45%" alt="Phase Space Reconstruction" />
 </p>
 
 Comparative Analysis
 
+
 <p align="center">
-<img src="https://github.com/user-attachments/assets/f5c92271-cab2-4e9b-8db0-6bd25f77d071" width="45%" alt="Phase Space Reconstruction" />
+  <img src="https://github.com/user-attachments/assets/9fb3ce45-a9fa-43f8-99ce-6498f1fcae51" width="90%" alt="VAE Loss Curves" />
 </p>
 
 <p align="center">
